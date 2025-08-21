@@ -68,3 +68,23 @@
         color: var(--color-primary);
     }
 }
+
+.card-ref{
+    display:flex;
+    gap: 16px;
+    justify-content: center;
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(230, 21, 171,0.8);
+    padding: 24px;
+    max-width: 320px;
+    /*border-color: rgb(230, 21, 171);*/
+    /*border-width: medium;*/
+    /*border-style: solid;*/
+}
+.card-text {
+    color: #444;
+    font-size: 15px;
+}
