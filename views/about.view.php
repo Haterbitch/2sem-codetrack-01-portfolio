@@ -19,6 +19,7 @@ $this->extend('layout');
     </div>
 </section>
 
+
 <section class="bio">
     <div class="container">
         <div class="about-content">
