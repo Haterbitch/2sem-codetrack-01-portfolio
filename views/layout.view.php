@@ -24,22 +24,22 @@
                     <ul>
                         <li>
                             <a href="/">
-                                Home
+                                Hjem
                             </a>
                         </li>
                         <li>
                             <a href="/about">
-                                About
+                                Om Mig!
                             </a>
                         </li>
                         <li>
                             <a href="/projects">
-                                Projects
+                                Projekter
                             </a>
                         </li>
                         <li>
                             <a href="/contact">
-                                Contact
+                                Kontakt
                             </a>
                         </li>
                     </ul>
@@ -49,7 +49,7 @@
                         <ul>
                             <li>
                                 <a href="/admin/dashboard">
-                                    Dashboard
+                                    Admin
                                 </a>
                             </li>
                             <li>
