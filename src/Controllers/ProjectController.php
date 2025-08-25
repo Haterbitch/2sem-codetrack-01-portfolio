@@ -45,10 +45,10 @@ class ProjectController extends Controller
             new ProjectDto(
                 title: 'Simple Glæde ',
                 description: 'Vi udviklede en interaktiv webapp, der præsenterer Køge som en Instagram-venlig destination for unge turister. Projektet kombinerede research, design og kodning, og resulterede i en brugervenlig digital guide til byens mest fotogene spots.',
-                technologies: 'PHP, HTML5, CSS3, Responsive Design',
-                image: 'images/projects/tema6',
+                technologies: 'HTML, CSS, FIGMA, ',
+                image: 'images/projects/tema6.png',
                 code: 'https://github.com/madh-zealand/2sem-codetrack-01-portfolio',
-                link: '#portfolio',
+                link: 'https://koege.artbybukh.dk/?fbclid=IwZXh0bgNhZW0CMTEAAR59_VXCD_l6PawsokV2-qpSjcg9WKWwWa59QqNJLPpk9nCT5hy8JDuW5dZPcg_aem_zNTd4IJ1VN35Lf2_FuQiOQ',
             ),
             new ProjectDto(
                 title: 'Digital Guestbook',
