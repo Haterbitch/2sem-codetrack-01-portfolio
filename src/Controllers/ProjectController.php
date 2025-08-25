@@ -44,7 +44,7 @@ class ProjectController extends Controller
         return [
             new ProjectDto(
                 title: 'Remember?',
-                description: 'Jeg udviklede en app, der hjælper unge med en “always on”-livsstil og særligt neurodivergente med at slippe den hverdagsangst, der kan opstå, når man glemmer små ting som at låse døren eller slukke lyset. Appen gør det muligt at oprette og afkrydse personlige huskelister, så man får ro i hverdagen. Designet er simpelt, intuitivt og bygget til mobile first, med fokus på genkendelighed fra andre populære apps.',
+                description: 'I developed an app that helps young people and neurodivergent users manage everyday anxiety by remembering small tasks like locking the door or turning off the lights. The design is simple, intuitive and built mobile first with a focus on familiarity from popular apps.',
                 technologies: 'HTML, CSS, Bootstrap, FIGMA, Photoshop, OpenAI',
                 image: 'images/remember.png',
                 code: 'https://github.com/Haterbitch/eksamen1sem',
@@ -52,7 +52,7 @@ class ProjectController extends Controller
             ),
             new ProjectDto(
                 title: 'Simple Glæde ',
-                description: 'Vi udviklede en interaktiv webapp, der præsenterer Køge som en Instagram-venlig destination for unge turister. Projektet kombinerede research, design og kodning, og resulterede i en brugervenlig digital guide til byens mest fotogene spots.',
+                description: 'We developed an interactive web app that presents Køge as an Instagram friendly destination for young tourists. The project combined research, design and coding and resulted in a user friendly digital guide to the city’s most photogenic spots.',
                 technologies: 'HTML, CSS, FIGMA, Bootstrap, OpenAI',
                 image: 'images/tema6.png',
                 code: 'https://github.com/Haterbitch/tema6',

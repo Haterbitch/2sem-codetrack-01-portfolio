@@ -15,7 +15,7 @@ $this->extend('layout');
             My Projects
         </h1>
         <p class="page-intro">
-            Welcome to my project showcase! Here you'll find a collection of my recent work, highlighting my skills in web development and software engineering. Each project demonstrates my commitment to creating clean, efficient, and user-friendly solutions.
+            A mix of school work and personal passion projects, showcasing my creativity, design skills, coding and the things that inspire me. Together they tell the story of who I am.
         </p>
     </div>
 </section>
