@@ -43,6 +43,14 @@ class ProjectController extends Controller
     {
         return [
             new ProjectDto(
+                title: 'Veninde Bog',
+                description: 'Velkommen til min Guestbook, det er en venindebog som vi kender den fra 90 og start 00. Den er slet ikke færdig. ',
+                technologies: 'PHP, CSS, Figma',
+                image: 'images/guestbook.png',
+                code: 'https://github.com/Haterbitch/2sem-codetrack-02-guestbook',
+                link: 'https://guestbook.artbybukh.dk/',
+            ),
+            new ProjectDto(
                 title: 'Remember?',
                 description: 'I developed an app that helps young people and neurodivergent users manage everyday anxiety by remembering small tasks like locking the door or turning off the lights. The design is simple, intuitive and built mobile first with a focus on familiarity from popular apps.',
                 technologies: 'HTML, CSS, Bootstrap, FIGMA, Photoshop, OpenAI',
@@ -59,14 +67,7 @@ class ProjectController extends Controller
                 link: 'https://koege.artbybukh.dk/?fbclid=IwZXh0bgNhZW0CMTEAAR59_VXCD_l6PawsokV2-qpSjcg9WKWwWa59QqNJLPpk9nCT5hy8JDuW5dZPcg_aem_zNTd4IJ1VN35Lf2_FuQiOQ',
             ),
 
-            new ProjectDto(
-                title: 'Browser Game',
-                description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
-                technologies: 'JavaScript, HTML Canvas, CSS Animations',
-                image: 'images/projects/webgame.jpg',
-                code: 'https://github.com/madh-zealand/tba',
-                link: '#webgame',
-            ),
+
             new ProjectDto(
                 title: 'Browser Game',
                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
