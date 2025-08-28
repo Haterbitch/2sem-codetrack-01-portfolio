@@ -16,6 +16,13 @@ $this->extend('layout');
     </div>
 </section>
 
+<div class="under">
+<p>Under Construction</p>
+
+</div>
+
+
+
 <section class="intro section-padding">
     <div class="container">
         <div class="intro-content">

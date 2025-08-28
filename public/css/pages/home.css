@@ -17,7 +17,7 @@
             font-size: 3.5rem;
         }
     }
-    
+
     .accent {
         display: block;
         color: var(--color-primary);
@@ -166,4 +166,13 @@
             background-color: #f0f0f0;
         }
     }
+}
+
+
+.under{
+    font-size: 150px;
+    justify-items: center;
+    align-items: center;
+    background-color: #e615ab;
+
 }
