@@ -51,6 +51,14 @@ class ProjectController extends Controller
                 link: 'https://guestbook.artbybukh.dk/',
             ),
             new ProjectDto(
+                title: 'Style Switcher',
+                description: 'Style switcher i kode sporet opgave. Den er under ombygning!',
+                technologies: 'PHP, CSS, Figma',
+                image: '#',
+                code: 'https://github.com/Haterbitch/style-switcher',
+                link: 'styleswitcher.artbybukh.dk',
+            ),
+            new ProjectDto(
                 title: 'Remember?',
                 description: 'I developed an app that helps young people and neurodivergent users manage everyday anxiety by remembering small tasks like locking the door or turning off the lights. The design is simple, intuitive and built mobile first with a focus on familiarity from popular apps.',
                 technologies: 'HTML, CSS, Bootstrap, FIGMA, Photoshop, OpenAI',
