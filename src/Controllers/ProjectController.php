@@ -34,6 +34,43 @@ class ProjectController extends Controller
         return $response;
     }
 
+
+    /**
+     * Show the projects page.
+     * Renders the 'projects' view with a list of projects.
+     *
+     * @param Request $request The current HTTP request instance.
+     * @return Response
+     */
+    public function afrika(Request $request): Response
+    {
+        $response = new Response();
+        $response->setTemplate($this->template, 'albums/afrika', [
+            ...$this->pullFlash($response),
+            'request' => $request,
+            'projects' => $this->getProjects(),
+        ]);
+        return $response;
+    }
+
+    /**
+     * Show the projects page.
+     * Renders the 'projects' view with a list of projects.
+     *
+     * @param Request $request The current HTTP request instance.
+     * @return Response
+     */
+    public function sydafrika(Request $request): Response
+    {
+        $response = new Response();
+        $response->setTemplate($this->template, 'albums/sydafrika', [
+            ...$this->pullFlash($response),
+            'request' => $request,
+            'projects' => $this->getProjects(),
+        ]);
+        return $response;
+    }
+
     /**
      * Get list of projects to display.
      *
@@ -50,6 +87,16 @@ class ProjectController extends Controller
                 code: 'https://github.com/Haterbitch/2sem-codetrack-02-guestbook',
                 link: 'https://guestbook.artbybukh.dk/',
             ),
+
+            new ProjectDto(
+                title: 'WildFrame',
+                description: 'Velkommen til WildFrame galleri.',
+                technologies: 'PHP, CSS, Figma',
+                image: 'images/WildFrame.png',
+                code: 'https://github.com/Haterbitch/project-presentation',
+                link: 'presentation.artbybukh.dk',
+            ),
+
             new ProjectDto(
                 title: 'Style Switcher',
                 description: 'Style switcher i kode sporet opgave. Den er under ombygning!',

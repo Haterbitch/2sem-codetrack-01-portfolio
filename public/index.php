@@ -21,6 +21,8 @@ $router = new Router($template);
 $router->get('/', [HomeController::class, 'index']);
 $router->get('/about', [HomeController::class, 'about']);
 $router->get('/projects', [ProjectController::class, 'index']);
+$router->get('/projects/afrika', [ProjectController::class, 'afrika']);
+$router->get('/projects/sydafrika', [ProjectController::class, 'sydafrika']);
 $router->get('/contact', [ContactController::class, 'index']);
 $router->post('/contact', [ContactController::class, 'post']);
 $router->get('/login', [LoginController::class, 'index']);
