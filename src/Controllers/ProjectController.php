@@ -94,7 +94,7 @@ class ProjectController extends Controller
                 technologies: 'PHP, CSS, Figma',
                 image: 'images/WildFrame.png',
                 code: 'https://github.com/Haterbitch/project-presentation',
-                link: 'presentation.artbybukh.dk',
+                link: 'https://presentation.artbybukh.dk',
             ),
 
             new ProjectDto(
