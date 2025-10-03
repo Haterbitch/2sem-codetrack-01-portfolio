@@ -79,14 +79,6 @@ class ProjectController extends Controller
     private function getProjects(): array
     {
         return [
-            new ProjectDto(
-                title: 'Veninde Bog',
-                description: 'Velkommen til min Guestbook, det er en venindebog som vi kender den fra 90 og start 00. Den er slet ikke færdig. ',
-                technologies: 'PHP, CSS, Figma',
-                image: 'images/guestbook.png',
-                code: 'https://github.com/Haterbitch/2sem-codetrack-02-guestbook',
-                link: 'https://guestbook.artbybukh.dk/',
-            ),
 
             new ProjectDto(
                 title: 'WildFrame',
@@ -96,6 +88,16 @@ class ProjectController extends Controller
                 code: 'https://github.com/Haterbitch/project-presentation',
                 link: 'https://presentation.artbybukh.dk',
             ),
+
+            new ProjectDto(
+                title: 'Veninde Bog',
+                description: 'Velkommen til min Guestbook, det er en venindebog som vi kender den fra 90 og start 00. Den er slet ikke færdig. ',
+                technologies: 'PHP, CSS, Figma',
+                image: 'images/guestbook.png',
+                code: 'https://github.com/Haterbitch/2sem-codetrack-02-guestbook',
+                link: 'https://guestbook.artbybukh.dk/',
+            ),
+
 
             new ProjectDto(
                 title: 'Style Switcher',
@@ -121,7 +123,39 @@ class ProjectController extends Controller
                 code: 'https://github.com/Haterbitch/tema6',
                 link: 'https://koege.artbybukh.dk/?fbclid=IwZXh0bgNhZW0CMTEAAR59_VXCD_l6PawsokV2-qpSjcg9WKWwWa59QqNJLPpk9nCT5hy8JDuW5dZPcg_aem_zNTd4IJ1VN35Lf2_FuQiOQ',
             ),
+            new ProjectDto(
+                title: 'WildFrame',
+                description: 'Velkommen til WildFrame galleri.',
+                technologies: 'PHP, CSS, Figma',
+                image: 'images/WildFrame.png',
+                code: 'https://github.com/Haterbitch/project-presentation',
+                link: 'https://presentation.artbybukh.dk',
+            ),
+            new ProjectDto(
+                title: 'Widget',
+                description: 'Velkommen til Widget',
+                technologies: 'PHP, CSS, Javascript',
+                image: '#',
+                code: 'https://github.com/Haterbitch/widget-generator',
+                link: 'widget.artbybukh.dk',
+            ),
+            new ProjectDto(
+                title: 'A/B Test',
+                description: 'Velkommen til Min A/B test',
+                technologies: 'PHP, CSS, HTML',
+                image: '#',
+                code: 'https://github.com/Haterbitch/2sem-codetrack-04-ab-test',
+                link: 'ab.artbybukh.dk',
+            ),
 
+            new ProjectDto(
+                title: 'CRM',
+                description: 'Velkommen til Min CRM, jeg har brugt den som øvelse til at opsætte simply',
+                technologies: 'PHP, CSS, HTML',
+                image: '#',
+                code: 'https://github.com/Haterbitch/crm',
+                link: 'http://crm.artbybukh.dk/login',
+            ),
 
             new ProjectDto(
                 title: 'Browser Game',
